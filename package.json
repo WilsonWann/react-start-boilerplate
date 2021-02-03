@@ -27,6 +27,12 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "bin": {
     "create-my-react": "./bin/start.js"
   }
