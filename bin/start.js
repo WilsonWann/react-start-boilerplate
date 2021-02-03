@@ -6,7 +6,7 @@ const { exec } = require("child_process");
 
 const packageJson = require("../package.json");
 
-const scripts = `"start": "webpack-dev-server --mode=development --open --hot",
+const scripts = `"start": "webpack serve --mode=development --open --hot",
 "build": "webpack --mode=production"`;
 
 const babel = `"babel": ${packageJson.babel ? JSON.stringify(packageJson.babel) : JSON.stringify("")}`;
