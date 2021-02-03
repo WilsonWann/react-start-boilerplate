@@ -5,28 +5,42 @@
   - [Introduction](#introduction)
   - [Background](#background)
   - [Issues](#issues)
-  - [Team Composition](#team-composition)
+  - [Source Code](#source-code)
 
 ## Install
 
 Install with npm:
 
 ```sh
-$ npm install react-startup-boilerplate --save-dev
+npm install react-startup-boilerplate --save-dev
 
 ```
 
 Install with yarn:
 
 ```sh
-$ yarn add react-startup-boilerplate --dev
+yarn add react-startup-boilerplate --dev
 
 ```
 
 ## Introduction
 
+go to your root directory
+
+```sh
+create-my-react my-react-app
+cd my-react-app
+npm start
+```
+
 ## Background
+
+create my own boilerplate
 
 ## Issues
 
-## Team Composition
+> npm start error
+
+## Source Code
+
+[react-start-boilerplate](https://github.com/WilsonWann/react-start-boilerplate)
