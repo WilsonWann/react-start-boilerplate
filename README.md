@@ -1,4 +1,4 @@
-# <a style="align:'center'">react-startup-boilerplate</a>
+# react-startup-boilerplate
 
 - [react-startup-boilerplate](#react-startup-boilerplate)
   - [Install](#install)
