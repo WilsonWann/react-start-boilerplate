@@ -1,14 +1,6 @@
 const path = require('path')
 
 module.exports = {
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                parser: {
-                    harmony: true,
-                  },
-            }
-        ]
-    }
-};
+    mode: "development",
+    devtool: "inline-source-map"
+}

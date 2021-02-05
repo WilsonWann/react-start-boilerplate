@@ -8,7 +8,6 @@ const demoName = 'Load Image'
 
 const HelloWorld = () => {
   const test = _.map([1, 2, 3, 4, 5], (num) => num * num)
-
   return (
     <div>
       <h3>Hello World</h3>

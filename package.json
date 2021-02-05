@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode=development --open --hot",
+    "node-watch": "nodemon --watch webpack.config.js",
+    "start": "node-watch && webpack serve --mode=development --open --hot --devtool source-map",
     "build": "webpack --mode=production"
   },
   "author": "Wilson Wan",
@@ -24,6 +25,7 @@
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
+    "nodemon": "^2.0.7",
     "style-loader": "^2.0.0",
     "webpack": "^5.20.0",
     "webpack-cli": "^4.5.0",
