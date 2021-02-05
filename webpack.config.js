@@ -2,17 +2,19 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    modules: [path.join(__dirname, 'src'), 'node_modules'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     alias: {
       react: path.join(__dirname, 'node_modules', 'react'),
     },
   },
   module: {
+    noParse: '/lodash/',
     rules: [
       {
         test: /\.(js|jsx)$/,
