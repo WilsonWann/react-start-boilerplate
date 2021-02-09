@@ -1,13 +1,12 @@
-import css from './HelloWorld.css'
 import React from 'react';
 import _ from 'lodash';
 
-import SealLogo from 'file-loader!./seal.png';
+import SealLogo from './seal.png';
 
-const demoName = 'Load Image'
 
 const HelloWorld = () => {
-  const test = _.map([1, 2, 3, 4, 5], (num) => num * num)
+
+  const test = _.map([1, 2, 3, 4, 5], (num) => num * num * num)
   return (
     <div>
       <h3>Hello World</h3>
